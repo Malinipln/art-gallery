@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+    }
+
+    .artwork {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .artwork img {
+      max-width: 100%;
+      height: 80%;
+      border-radius: 5px;
+    }
+
+    .artwork p {
+      margin-top: 10px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Welcome to Our Art Gallery</h1>
+
+    <div class="gallery">
+      <div class="artwork">
+        <img src="https://cdn.shopify.com/s/files/1/2629/2348/files/1_1_cff8076d-29fa-44d1-b85f-76af9a415d79.jpg?v=1617956118" alt="Artwork 1">
+        <p>The sun rises directly from the middle of the river, illuminating the water with its morning glow.</p>
+      </div>
+      <div class="artwork">
+        <img src="https://img.freepik.com/premium-photo/beautiful-painting-lovely-colorful-butterfly-drawn-with-realistic-watercolors-generative-ai_58409-45266.jpg" alt="Artwork 2">
+        <p>A lone butterfly flutters, its delicate wings painted with the colors of dawn, a solitary beacon of grace in nature's tapestry.</p>
+      </div>
+      
+       <div class="artwork">
+        <img src="https://i.pinimg.com/564x/e4/a5/11/e4a511559fc2b191ca85a5e73d14388d.jpg" alt="Artwork 2">
+        <p>A lady performs Bharatanatyam, her movements graceful and expressive, weaving tales through dance with captivating simplicity.</p>
+      </div>
+       <div class="artwork">
+        <img src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/cricket-player-batsman-silhouette-03-pablo-romero.jpg" alt="Artwork 2">
+        <p>A cricketer takes the field, poised and ready, bat in hand, embodying the spirit of the game with every swing and every run.</p>
+      </div>
+      <div class="artwork">
+        <img src="https://i.pinimg.com/736x/bc/b3/31/bcb3317762ef51b899c678579a396330.jpg" alt="Artwork 2">
+        <p>A baby smiles, innocence in its purest form, lighting up the world with joy and warmth, a simple yet profound expression of happiness.</p>
+      </div>
+      <div class="artwork">
+        <img src="https://t4.ftcdn.net/jpg/05/58/58/69/360_F_558586973_BtedqLOvjcEXDPVcaC7rul7SFWYPqcsE.jpg" alt="Artwork 2">
+        <p>A lone butterfly flutters, its delicate wings painted with the colors of dawn, a solitary beacon of grace in nature's tapestry.</p>
+      </div>
+      <!-- Add more artwork divs as needed -->
+    </div>
+  </div>
+
+</body>
+</html>
